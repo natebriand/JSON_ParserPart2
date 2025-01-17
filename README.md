@@ -1,6 +1,5 @@
-Final Project Part 1 - README
+README
 Nate Briand
-B00958208
 
 
 The instructions for running this code are quite simple. Provided are two folders, one input folder containing 10
