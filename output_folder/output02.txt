@@ -1,0 +1,44 @@
+object:
+    Contents: 
+        key: name
+            String: Nate
+        key: age
+            Number: 25
+        key: isStudent
+            Boolean: true
+        key: graduated
+            Boolean: false
+        key: courses
+            List: 
+                Elements: 
+                    object:
+                        Contents: 
+                            key: courseName
+                                String: TheoryofComputerScience
+                            key: courseCode
+                                String: CSCI2115
+                            key: grade
+                                Null: null
+                    object:
+                        Contents: 
+                            key: courseName
+                                String: DataStructures
+                            key: courseCode
+                                String: CSCI2110
+                            key: grade
+                                String: A
+        key: hobbies
+            List: 
+                Elements: 
+                    String: coding
+                    String: gaming
+                    String: reading
+        key: address
+            object:
+                Contents: 
+                    key: street
+                        String: 1234ElmSt
+                    key: city
+                        String: Halifax
+                    key: postalCode
+                        String: B2T1E6

@@ -1,0 +1,63 @@
+object:
+    Contents: 
+        key: project
+            object:
+                Contents: 
+                    key: title
+                        String: SmartHomeAutomation
+                    key: description
+                        String: AnIoT-basedsystemtoautomatehomedevices.
+                    key: teamMembers
+                        List: 
+                            Elements: 
+                                object:
+                                    Contents: 
+                                        key: name
+                                            String: JohnDoe
+                                        key: role
+                                            String: TeamLead
+                                        key: tasks
+                                            List: 
+                                                Elements: 
+                                                    String: SystemArchitecture
+                                                    String: DeviceIntegration
+                                object:
+                                    Contents: 
+                                        key: name
+                                            String: JaneSmith
+                                        key: role
+                                            String: BackendDeveloper
+                                        key: tasks
+                                            List: 
+                                                Elements: 
+                                                    String: APIDevelopment
+                                                    String: DatabaseDesign
+                                object:
+                                    Contents: 
+                                        key: name
+                                            String: AlexBrown
+                                        key: role
+                                            String: FrontendDeveloper
+                                        key: tasks
+                                            List: 
+                                                Elements: 
+                                                    String: UI/UXDesign
+                                                    String: MobileApp
+                    key: technologies
+                        List: 
+                            Elements: 
+                                String: Node.js
+                                String: React
+                                String: MongoDB
+                                String: RaspberryPi
+                    key: budget
+                        object:
+                            Contents: 
+                                key: initial
+                                    Number: 5000
+                                key: spent
+                                    Number: 3200
+                                key: remaining
+                                    Number: 1800
+                    key: deadline
+                        String: 2024-12-31

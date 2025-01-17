@@ -1,0 +1,12 @@
+object:
+    Contents: 
+        key: username
+            String: coder123
+        key: names
+            List: 
+                Elements: 
+                    String: jack
+                    Number: 34
+                    Boolean: true
+        key: inschool
+            Boolean: false

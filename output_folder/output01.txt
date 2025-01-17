@@ -1,0 +1,25 @@
+object:
+    Contents: 
+        key: recipe
+            object:
+                Contents: 
+                    key: name
+                        String: ChocolateChipCookies
+                    key: ingredients
+                        List: 
+                            Elements: 
+                                String: 1cupbutter
+                                String: 2cupsflour
+                                String: 1cupchocolatechips
+                    key: instructions
+                        List: 
+                            Elements: 
+                                String: Preheatovento350F
+                                String: Mixbutterandsugaruntilcreamy
+                                String: Addflourandmixwell
+                                String: Stirinchocolatechips
+                                String: Bakefor12-15minutes
+                    key: servings
+                        Number: 24
+                    key: difficulty
+                        String: Easy

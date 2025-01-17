@@ -1,0 +1,30 @@
+object:
+    Contents: 
+        key: library
+            object:
+                Contents: 
+                    key: name
+                        String: CentralLibrary
+                    key: location
+                        String: Downtown
+                    key: books
+                        List: 
+                            Elements: 
+                                object:
+                                    Contents: 
+                                        key: title
+                                            String: TheGreatGatsby
+                                        key: author
+                                            String: F.ScottFitzgerald
+                                        key: available
+                                            Boolean: true
+                                object:
+                                    Contents: 
+                                        key: title
+                                            String: 1984
+                                        key: author
+                                            String: GeorgeOrwell
+                                        key: available
+                                            Boolean: false
+                    key: membershipActive
+                        Boolean: true

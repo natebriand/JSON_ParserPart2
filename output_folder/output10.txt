@@ -1,0 +1,54 @@
+object:
+    Contents: 
+        key: order
+            object:
+                Contents: 
+                    key: orderId
+                        Number: 98765
+                    key: customer
+                        object:
+                            Contents: 
+                                key: name
+                                    String: SarahConnor
+                                key: email
+                                    String: sconnor@example.com
+                                key: phone
+                                    String: +1-555-123-4567
+                    key: items
+                        List: 
+                            Elements: 
+                                object:
+                                    Contents: 
+                                        key: productId
+                                            Number: 123
+                                        key: productName
+                                            String: WirelessMouse
+                                        key: quantity
+                                            Number: 2
+                                        key: price
+                                            Number: 2599
+                                object:
+                                    Contents: 
+                                        key: productId
+                                            Number: 456
+                                        key: productName
+                                            String: MechanicalKeyboard
+                                        key: quantity
+                                            Number: 1
+                                        key: price
+                                            Number: 8550
+                    key: shippingAddress
+                        object:
+                            Contents: 
+                                key: street
+                                    String: 742EvergreenTerrace
+                                key: city
+                                    String: Springfield
+                                key: state
+                                    String: IL
+                                key: postalCode
+                                    String: 62704
+                    key: orderDate
+                        String: 2024-10-15
+                    key: status
+                        String: Shipped

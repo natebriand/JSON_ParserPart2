@@ -1,0 +1,64 @@
+object:
+    Contents: 
+        key: company
+            String: TechInnovatorsInc.
+        key: departments
+            List: 
+                Elements: 
+                    object:
+                        Contents: 
+                            key: name
+                                String: Engineering
+                            key: employees
+                                List: 
+                                    Elements: 
+                                        object:
+                                            Contents: 
+                                                key: name
+                                                    String: Alice
+                                                key: role
+                                                    String: SoftwareEngineer
+                                                key: fullTime
+                                                    Boolean: true
+                                        object:
+                                            Contents: 
+                                                key: name
+                                                    String: Bob
+                                                key: role
+                                                    String: DataAnalyst
+                                                key: fullTime
+                                                    Boolean: true
+                    object:
+                        Contents: 
+                            key: name
+                                String: Marketing
+                            key: employees
+                                List: 
+                                    Elements: 
+                                        object:
+                                            Contents: 
+                                                key: name
+                                                    String: Charlie
+                                                key: role
+                                                    String: SocialMediaManager
+                                                key: fullTime
+                                                    Boolean: false
+                                        object:
+                                            Contents: 
+                                                key: name
+                                                    String: David
+                                                key: role
+                                                    String: ContentCreator
+                                                key: fullTime
+                                                    Boolean: true
+        key: headquarters
+            object:
+                Contents: 
+                    key: city
+                        String: Toronto
+                    key: country
+                        String: Canada
+        key: founded
+            Number: 2010
+        key: isPublic
+            Boolean: false

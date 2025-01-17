@@ -1,0 +1,19 @@
+object:
+    Contents: 
+        key: product
+            String: Laptop
+        key: brand
+            String: TechBrand
+        key: specs
+            object:
+                Contents: 
+                    key: processor
+                        String: Inteli7
+                    key: ram
+                        String: 16GB
+                    key: storage
+                        String: 512GBSSD
+        key: price
+            Number: 1200
+        key: available
+            Boolean: true

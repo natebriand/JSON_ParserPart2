@@ -1,0 +1,12 @@
+object:
+    Contents: 
+        key: weather
+            String: sunny
+        key: rainExpected
+            Boolean: false
+        key: info
+            List: 
+                Elements: 
+                    String: NYC
+                    Null: null
+                    Number: 99

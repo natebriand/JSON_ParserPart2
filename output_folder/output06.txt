@@ -1,0 +1,21 @@
+object:
+    Contents: 
+        key: movieTitle
+            String: Inception
+        key: director
+            String: ChristopherNolan
+        key: releaseYear
+            Number: 2010
+        key: ratings
+            object:
+                Contents: 
+                    key: imdb
+                        Number: 8
+                    key: rottenTomatoes
+                        Number: 87
+        key: genres
+            List: 
+                Elements: 
+                    String: Action
+                    String: Sci-Fi
+                    String: Thriller
